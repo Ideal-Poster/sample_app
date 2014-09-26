@@ -1,4 +1,4 @@
-<!DOCTYPE html><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title><%= full_title(yield(:title)) %></title>
@@ -12,6 +12,7 @@
     <%= render 'layouts/header' %>
     <div class="container">
       <%= yield %>
+      <%= render 'layouts/footer' %>
     </div>
   </body>
 </html>
